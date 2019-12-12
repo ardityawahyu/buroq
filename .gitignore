@@ -12,3 +12,6 @@
 *.out
 *.toml
 buroq
+
+# others
+.DS_Store
