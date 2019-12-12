@@ -14,7 +14,7 @@ import (
 
 var migrateUpCmd = &cobra.Command{
 	Use:   "migrate",
-	Short: "Migrate Up DB Sekawan",
+	Short: "Migrate Up DB Buroq",
 	Long:  `Please you know what are you doing by using this command`,
 	Run: func(cmd *cobra.Command, args []string) {
 		c := config.Config()
@@ -29,7 +29,7 @@ var migrateUpCmd = &cobra.Command{
 
 var migrateDownCmd = &cobra.Command{
 	Use:   "migratedown",
-	Short: "Migrate Up DB Sekawan",
+	Short: "Migrate Up DB Buroq",
 	Long:  `Please you know what are you doing by using this command`,
 	Run: func(cmd *cobra.Command, args []string) {
 		c := config.Config()

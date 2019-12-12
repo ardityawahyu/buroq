@@ -11,8 +11,8 @@ import (
 // versionCmd represents the version command
 var versionCmd = &cobra.Command{
 	Use:   "version",
-	Short: "Print the version number of sekawan",
-	Long:  `All software has versions. This is sekawan`,
+	Short: "Print the version number of buroq",
+	Long:  `All software has versions. This is buroq`,
 	Run: func(cmd *cobra.Command, args []string) {
 		fmt.Println("Build Date:", version.BuildDate)
 		fmt.Println("Git Commit:", version.GitCommit)
