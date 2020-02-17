@@ -54,3 +54,5 @@ Before you do the migration, please specify what DB that you want to migrate in 
 ## Author
 
 * Arditya Wahyu N - *initial work* - [ardityawahyu](https://github.com/ardityawahyu)
+
+cuma ngetest
